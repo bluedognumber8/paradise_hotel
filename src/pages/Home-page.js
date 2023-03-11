@@ -15,7 +15,7 @@ function HomePage() {
       </Hero>
       <Main>
         <WrapHero>
-          <Book></Book>
+          <Book />
           <WrapBanners>
             <Banner />
             <Banner />
@@ -200,7 +200,7 @@ const Hero = styled.div`
 
 const Main = styled.div`
   background-color: #ebebeb;
-  margin-bottom: 100px;
+  padding-bottom: 100px;
 `
 
 export default HomePage
